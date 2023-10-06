@@ -37,7 +37,7 @@ def button_equal():
     if math=="division":
         e.insert(0,f_num/int(second_number))
     if math=="square":
-        e.insert(0,)
+        e.insert(0,f_num*f_num)
     if math=="sqrt":
         e.insert(0,mt.sqrt(f_num))
 
